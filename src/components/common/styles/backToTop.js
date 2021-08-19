@@ -3,9 +3,9 @@ import {colors} from "../element/elements.js";
 
 export const Styles = styled.div`
     button.totop-btn {
-        background : ${colors.gr_bg};
+        background : ${colors.red};
         position: fixed;
-        bottom : 1px;
+        bottom : 120px;
         right : 30px;
         width : 45px;
         height: 45px;
@@ -22,12 +22,12 @@ export const Styles = styled.div`
         pointer-events : none;
         transition : all 0.4s;
         &:hover {
-            background : ${colors.gr_bg2};
+            background : ${colors.red};
         }
     }
 
     button.totop-btn.show {
-        bottom : 40px;
+        bottom : 120px;
         opacity: 1;
         pointer-events : auto;
     }
