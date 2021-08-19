@@ -30,7 +30,8 @@ class EventDetails extends Component {
                                 <Col lg="9" md="8" sm="12">
                                     <div className="event-details-content">
                                         <div className="heading">
-                                            <h4>International students coming in Uk from Asian subcontinant for better education.</h4>
+                                            <h4>International Clients coming in Uk from Asian subcontinant for better
+                                                education.</h4>
                                         </div>
                                         <div className="event-icon">
                                             <ul className="list-unstyled list-inline">

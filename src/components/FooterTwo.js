@@ -51,12 +51,14 @@ function FooterTwo() {
                     <Row>
                         <Col md="3">
                             <div className="footer-logo-info">
-                                <img src={process.env.PUBLIC_URL + "/assets/images/f-logo.png"} alt="" className="img-fluid" />
-                                <p>Lorem ipsum dolor sit amet, consectet adipisicing elit. Saepe porro neque a nam null quos.</p>
+                                <img src={process.env.PUBLIC_URL + "/assets/images/f-logo-200_x_200.jpeg"} alt=""
+                                     className="img-fluid"/>
+                                <p>Lorem ipsum dolor sit amet, consectet adipisicing elit. Saepe porro neque a nam null
+                                    quos.</p>
                                 <ul className="list-unstyled">
-                                    <li><i className="las la-map-marker"></i>795 South Park Avenue, CA 94107</li>
-                                    <li><i className="las la-envelope"></i>enquery@domain.com</li>
-                                    <li><i className="las la-phone"></i>+1 908 875 7678</li>
+                                    <li><i className="las la-map-marker"/>Juja, Kenya</li>
+                                    <li><i className="las la-envelope"/>enquery@domain.com</li>
+                                    <li><i className="las la-phone"/>0743 295261</li>
                                 </ul>
                             </div>
                         </Col>
@@ -64,11 +66,16 @@ function FooterTwo() {
                             <div className="f-links">
                                 <h5>Useful Links</h5>
                                 <ul className="list-unstyled">
-                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"></i>General Information</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"></i>Help Center</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"></i>Our Services</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"></i>Privacy Policy</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"></i>Online Support</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>General
+                                        Information</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>Help
+                                        Center</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>Our
+                                        Services</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>Privacy
+                                        Policy</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>Online
+                                        Support</Link></li>
                                 </ul>
                             </div>
                         </Col>
@@ -77,7 +84,7 @@ function FooterTwo() {
                                 <h5>Twitter Post</h5>
                                 <div className="post-box d-flex">
                                     <div className="po-icon">
-                                        <i className="fab fa-twitter"></i>
+                                        <i className="fab fa-twitter"/>
                                     </div>
                                     <div className="po-content">
                                         <Link to={process.env.PUBLIC_URL + "/blog-details"}>Lorem ipsum dolor sit ...</Link>
@@ -86,7 +93,7 @@ function FooterTwo() {
                                 </div>
                                 <div className="post-box d-flex">
                                     <div className="po-icon">
-                                        <i className="fab fa-twitter"></i>
+                                        <i className="fab fa-twitter"/>
                                     </div>
                                     <div className="po-content">
                                         <Link to={process.env.PUBLIC_URL + "/blog-details"}>Lorem ipsum dolor sit ...</Link>
@@ -95,7 +102,7 @@ function FooterTwo() {
                                 </div>
                                 <div className="post-box d-flex">
                                     <div className="po-icon">
-                                        <i className="fab fa-twitter"></i>
+                                        <i className="fab fa-twitter"/>
                                     </div>
                                     <div className="po-content">
                                         <Link to={process.env.PUBLIC_URL + "/blog-details"}>Lorem ipsum dolor sit ...</Link>
@@ -111,8 +118,8 @@ function FooterTwo() {
 
                                 <form id="form4" className="form">
                                     <p className="form-control">
-                                        <input type="email" placeholder="Enter email here" id="email4" />
-                                        <span className="input-msg4"></span>
+                                        <input type="email" placeholder="Enter email here" id="email4"/>
+                                        <span className="input-msg4"/>
                                     </p>
                                     <button>Submit</button>
                                 </form>
@@ -120,13 +127,21 @@ function FooterTwo() {
                         </Col>
                         <Col md="12">
                             <div className="copytext-area text-center">
-                                <p>Copyright &copy; 2017 | Designed With <i className="las la-heart"></i> by <a href={process.env.PUBLIC_URL + "/"} target="_blank" rel="noopener noreferrer">SnazzyTheme</a></p>
+                                <p>Copyright &copy; 2017 | Designed With by <a href="http://georgethedeveloper.tech"
+                                                                               target="_blank"
+                                                                               rel="noopener noreferrer"> georgethedeveloper</a>
+                                </p>
                                 <ul className="social list-unstyled list-inline">
-                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-facebook-f"></i></a></li>
-                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-twitter"></i></a></li>
-                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-linkedin-in"></i></a></li>
-                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-youtube"></i></a></li>
-                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-dribbble"></i></a></li>
+                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
+                                        className="fab fa-facebook-f"/></a></li>
+                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
+                                        className="fab fa-twitter"/></a></li>
+                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
+                                        className="fab fa-linkedin-in"/></a></li>
+                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
+                                        className="fab fa-youtube"/></a></li>
+                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
+                                        className="fab fa-dribbble"/></a></li>
                                 </ul>
                             </div>
                         </Col>

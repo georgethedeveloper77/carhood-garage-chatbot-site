@@ -10,7 +10,7 @@ export const Styles = styled.div`
         width: 100%;
         z-index: 11;
         animation: 300ms ease-in-out 0s normal none 1 fadeInDown;
-        background: #ffffff;
+        background: ${colors.red};
         height: 75px;
         padding-top: 18px;
         box-shadow: 0 0 20px -10px #222222;

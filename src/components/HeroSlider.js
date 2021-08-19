@@ -22,10 +22,10 @@ class HeroSlider extends Component {
                 prevEl: '.slider-button-prev'
             },
             renderPrevButton: () => (
-                <div className="swiper-btn slider-button-prev"><i className="flaticon-arrow-left-th"></i></div>
+                <div className="swiper-btn slider-button-prev"><i className="flaticon-arrow-left-th"/></div>
             ),
             renderNextButton: () => (
-                <div className="swiper-btn slider-button-next"><i className="flaticon-arrow-right-th"></i></div>
+                <div className="swiper-btn slider-button-next"><i className="flaticon-arrow-right-th"/></div>
             )
         };
 
@@ -53,8 +53,12 @@ class HeroSlider extends Component {
                                                                 <h1>{data.desc}</h1>
                                                             </div>
                                                             <div className="slider-btn">
-                                                                <Link className="slider-btn1" to={process.env.PUBLIC_URL + `/${data.btnOneLink}`}>Our Courses</Link>
-                                                                <Link className="slider-btn2" to={process.env.PUBLIC_URL + `/${data.btnTwoLink}`}>Contact Us</Link>
+                                                                <Link className="slider-btn1"
+                                                                      to={process.env.PUBLIC_URL + `/${data.btnOneLink}`}>Learn
+                                                                    More</Link>
+                                                                <Link className="slider-btn2"
+                                                                      to={process.env.PUBLIC_URL + `/${data.btnTwoLink}`}>Contact
+                                                                    Us</Link>
                                                             </div>
                                                         </div>
                                                     </Col>

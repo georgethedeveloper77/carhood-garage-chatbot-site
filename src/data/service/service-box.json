@@ -1,41 +1,71 @@
 {
-    "secTitle": "Checkout Our Features To Know Why We Are Best In This Business",
-    "dataList": [
-        {
-            "id": "1",
-            "boxIcon": "flaticon-thumbs-like",
-            "title": "Popular Courses",
-            "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
-        },
-        {
-            "id": "2",
-            "boxIcon": "flaticon-reading",
-            "title": "Modern Library",
-            "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
-        },
-        {
-            "id": "3",
-            "boxIcon": "flaticon-teacher",
-            "title": "Qualified Teacher",
-            "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
-        },
-        {
-            "id": "4",
-            "boxIcon": "flaticon-unlimited",
-            "title": "Unlimited Courses",
-            "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
-        },
-        {
-            "id": "5",
-            "boxIcon": "flaticon-locations",
-            "title": "Many Locations",
-            "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
-        },
-        {
-            "id": "6",
-            "boxIcon": "flaticon-support",
-            "title": "Online Support",
-            "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
-        }
-    ]
+  "secTitle": "Checkout Our Services To Know Why We Are Best Car Garage In This Business",
+  "dataList": [
+    {
+      "id": "1",
+      "boxIcon": "flaticon-thumbs-like",
+      "title": "Oil Change & Lube",
+      "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
+    },
+    {
+      "id": "2",
+      "boxIcon": "flaticon-reading",
+      "title": "Maintenance",
+      "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
+    },
+    {
+      "id": "3",
+      "boxIcon": "flaticon-teacher",
+      "title": "Service & Repair",
+      "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
+    },
+    {
+      "id": "4",
+      "boxIcon": "flaticon-unlimited",
+      "title": "Timing Belt",
+      "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
+    },
+    {
+      "id": "5",
+      "boxIcon": "flaticon-locations",
+      "title": "Tire Services",
+      "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
+    },
+    {
+      "id": "6",
+      "boxIcon": "flaticon-locations",
+      "title": "Towing Service",
+      "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
+    },
+    {
+      "id": "7",
+      "boxIcon": "flaticon-locations",
+      "title": "Muffer & Exhaust",
+      "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
+    },
+    {
+      "id": "8",
+      "boxIcon": "flaticon-locations",
+      "title": "Transmission Repair",
+      "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
+    },
+    {
+      "id": "9",
+      "boxIcon": "flaticon-locations",
+      "title": "Full Car Diagnosis",
+      "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
+    },
+    {
+      "id": "10",
+      "boxIcon": "flaticon-locations",
+      "title": "Ac/Heating",
+      "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
+    },
+    {
+      "id": "11",
+      "boxIcon": "flaticon-support",
+      "title": "Online Support",
+      "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
+    }
+  ]
 }

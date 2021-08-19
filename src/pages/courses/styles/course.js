@@ -103,7 +103,7 @@ export const Styles = styled.div`
                     .course-face {
 
                         .duration,
-                        .student {
+                        .Clients {
                             p {
                                 font-size: 13px;
                                 color    : ${colors.text3};

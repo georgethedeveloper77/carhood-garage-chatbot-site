@@ -34,8 +34,8 @@ class NumberCounter extends Component {
                                         <i className="las la-graduation-cap"></i>
                                     </div>
                                     <div className="counter-number">
-                                        <h4><CountUp end={2309} duration={5} delay={1.5} />+</h4>
-                                        <p>Total Students</p>
+                                        <h4><CountUp end={2309} duration={5} delay={1.5}/>+</h4>
+                                        <p>Total Clients</p>
                                     </div>
                                 </div>
                             </Col>

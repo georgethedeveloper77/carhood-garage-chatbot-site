@@ -3,7 +3,6 @@ import Header from './components/Header';
 import HeroSlider from './components/HeroSlider';
 import IconBox from './components/IconBox';
 import AboutUs from './components/AboutUs';
-import CourseFilter from './components/CourseFilter';
 import TestimonialSlider from './components/TestimonialSlider';
 import FaqEvent from './components/FaqEvent';
 import TeamSlider from './components/TeamSlider';
@@ -12,32 +11,41 @@ import HomeBlog from './components/HomeBlog';
 import CampusTour from './components/CampusTour';
 import NewsletterForm from './components/NewsletterForm';
 import Footer from './components/Footer';
+import ServiceBox from "./components/ServiceBox";
+import ImageGallery from "./components/ImageGallery";
 
 export default class HomeOne extends Component {
     render() {
         return (
-            <div className="main-wrapper" >
+            <div className="main-wrapper">
 
                 {/* Header */}
-                < Header />
+                < Header/>
 
                 {/* Hero Slider */}
-                < HeroSlider />
+                < HeroSlider/>
 
                 {/* Icon Box */}
-                < IconBox />
+                < IconBox/>
 
-                {/* About Area */}
-                < AboutUs />
-
-                {/* Course Filter */}
-                < CourseFilter />
-
-                {/* Testimonial Slider */}
-                < TestimonialSlider />
+                {/* Service Box */}
+                <ServiceBox/>
 
                 {/* Faq & Event Area */}
-                < FaqEvent />
+                < FaqEvent/>
+
+                {/* About Area */}
+                < AboutUs/>
+
+                {/* Image Gallery Area */}
+                <ImageGallery/>
+
+                {/* Course Filter */}
+                {/*< CourseFilter />*/}
+
+                {/* Testimonial Slider */}
+                < TestimonialSlider/>
+
 
                 {/* Team Slider */}
                 < TeamSlider />

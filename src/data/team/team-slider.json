@@ -1,15 +1,15 @@
 {
-    "secTitle": "We Have Fantustic Team To Help Student And They Are Always Ready.",
-    "dataList": [
-        {
-            "id": "1",
-            "personImage": "team-1.jpg",
-            "personName": "Emily Perrey",
-            "personTitle": "Teacher",
-            "socialLinks": {
-                "facebook": "//www.facebook.com",
-                "twitter": "//www.twitter.com",
-                "linkedin": "//www.linkedin.com",
+  "secTitle": "We Have Fantastic Team To Help Clients And They Are Always Ready.",
+  "dataList": [
+    {
+      "id": "1",
+      "personImage": "team-1.jpg",
+      "personName": "Emily Perrey",
+      "personTitle": "Teacher",
+      "socialLinks": {
+        "facebook": "//www.facebook.com",
+        "twitter": "//www.twitter.com",
+        "linkedin": "//www.linkedin.com",
                 "youtube": "//www.youtube.com"
             }
         },

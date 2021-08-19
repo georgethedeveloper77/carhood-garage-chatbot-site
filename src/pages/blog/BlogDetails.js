@@ -31,7 +31,8 @@ class BlogDetails extends Component {
                                             <img src={process.env.PUBLIC_URL + `/assets/images/blog_c-04.jpg`} alt="" className="img-fluid" />
                                         </div>
                                         <div className="heading">
-                                            <h4>International students coming in Uk from Asian subcontinant for better education.</h4>
+                                            <h4>International Clients coming in Uk from Asian subcontinant for better
+                                                education.</h4>
                                         </div>
                                         <div className="blog-auth_date d-flex">
                                             <div className="author-img d-flex">

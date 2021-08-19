@@ -11,13 +11,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6293066-9b69-43f4-bb14-27ee55f69397" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/ras.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/Untitled design.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/engine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/oil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/slider1-1920.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/edulynreact.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/carhood-garage-chatbot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeOne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeTwo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CourseFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CourseFilter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CourseSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CourseSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FooterTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FooterTwo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeaderTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderTwo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/IconBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IconBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NumberCounter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NumberCounter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/MobileMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/MobileMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/StickyMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/StickyMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/element/elements.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/element/elements.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/styles/stickyMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/styles/stickyMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/courseFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/courseFilter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/courseSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/courseSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/heroSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/heroSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/serviceBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/serviceBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/event/events.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/event/events.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/hero/hero-slider.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/hero/hero-slider.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/icon-box/icon-box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/icon-box/icon-box.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/service/service-box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/service/service-box.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/team/team-slider.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/team/team-slider.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/testimonial/testimonial-slider.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/testimonial/testimonial-slider.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/BlogDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/BlogDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/comingsoon/ComingSoon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/comingsoon/ComingSoon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact/GoogleMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/GoogleMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/courses/components/CourseItemsGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/components/CourseItemsGrid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/courses/styles/course.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/styles/course.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/events/EventsDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/events/EventsDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/instructor/InstructorDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/instructor/InstructorDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/instructor/styles/instructor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/instructor/styles/instructor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +66,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="georgethedeveloper77 &lt;georgekarani77@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1wLf4V4KboKTKl93BAaLNAXDpzD" />
@@ -42,6 +88,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -55,6 +102,8 @@
       <updated>1628242598430</updated>
       <workItem from="1628242602989" duration="2592000" />
       <workItem from="1629133900878" duration="2522000" />
+      <workItem from="1629137303843" duration="1745000" />
+      <workItem from="1629355086673" duration="10355000" />
     </task>
     <task id="LOCAL-00001" summary="PWA">
       <created>1629134181559</created>
@@ -63,11 +112,28 @@
       <option name="project" value="LOCAL" />
       <updated>1629134181559</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactoring v2">
+      <created>1629137330550</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629137330550</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Refactoring v3">
+      <created>1629137496195</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1629137496195</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -82,9 +148,15 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="PWA" />
-    <option name="LAST_COMMIT_MESSAGE" value="PWA" />
+    <MESSAGE value="Refactoring v2" />
+    <MESSAGE value="Refactoring v3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring v3" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="220" y="355" width="591" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1629135213439">
@@ -107,9 +179,13 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="995" height="274" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1629136435990" />
-    <state x="115" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1629134186970">
+    <state x="115" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1629137502071">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="115" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1629134186970" />
+    <state x="115" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1629137502071" />
+    <state x="831" y="510" width="841" height="570" key="find.popup" timestamp="1629400988106">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="831" y="510" width="841" height="570" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1629400988106" />
   </component>
 </project>

@@ -1,20 +1,29 @@
 [
     {
-        "id": "1",
-        "backgroundImage": "slider-1.jpg",
-        "uniqClass": "slider-box slider-box1",
-        "title": "Welcome To Edulyn.",
-        "desc": "Best University In This Region Join With Us Today",
-        "btnOneLink": "course-grid",
-        "btnTwoLink": "contact"
+      "id": "1",
+      "backgroundImage": "slider1-1920.png",
+      "uniqClass": "slider-box slider-box1",
+      "title": "Welcome To CarHood Garage.",
+      "desc": "Best Garage In This Region",
+      "btnOneLink": "about",
+      "btnTwoLink": "contact"
     },
-    {
-        "id": "2",
-        "backgroundImage": "slider-2.jpg",
-        "uniqClass": "slider-box slider-box2 text-right",
-        "title": "Welcome To Edulyn.",
-        "desc": "Best University In This Region Join With Us Today",
-        "btnOneLink": "course-grid",
-        "btnTwoLink": "contact"
-    }
+  {
+    "id": "2",
+    "backgroundImage": "engine.png",
+    "uniqClass": "slider-box slider-box2 text-right",
+    "title": "Carhood Garage.",
+    "desc": "All Car Services are Offered",
+    "btnOneLink": "about",
+    "btnTwoLink": "contact"
+  },
+  {
+    "id": "3",
+    "backgroundImage": "oil.png",
+    "uniqClass": "slider-box slider-box2 text-right",
+    "title": "Services",
+    "desc": "Service & Repair",
+    "btnOneLink": "Services",
+    "btnTwoLink": "Contact"
+  }
 ]

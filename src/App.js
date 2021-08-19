@@ -25,15 +25,17 @@ import BlogDetails from './pages/blog/BlogDetails';
 import Product from './pages/shop/Products';
 import ProductDetails from './pages/shop/ProductDetails';
 import Cart from './pages/shop/Cart';
+import MessengerCustomerChat from "react-messenger-customer-chat";
+
 
 function App() {
     return (
         <Router>
-            <GlobalStyle />
-            <ScrollToTop />
+            <GlobalStyle/>
+            <ScrollToTop/>
             <Switch>
-                <Route exact path={`${process.env.PUBLIC_URL + "/"}`} component={HomeOne} />
-                <Route path={`${process.env.PUBLIC_URL + "/home-two"}`} component={HomeTwo} />
+                <Route exact path={`${process.env.PUBLIC_URL + "/"}`} component={HomeOne}/>
+                <Route path={`${process.env.PUBLIC_URL + "/home-two"}`} component={HomeTwo}/>
                 <Route path={`${process.env.PUBLIC_URL + "/about"}`} component={About} />
                 <Route path={`${process.env.PUBLIC_URL + "/course-grid"}`} component={CourseGrid} />
                 <Route path={`${process.env.PUBLIC_URL + "/course-list"}`} component={CourseList} />
@@ -46,16 +48,23 @@ function App() {
                 <Route path={`${process.env.PUBLIC_URL + "/login"}`} component={Login} />
                 <Route path={`${process.env.PUBLIC_URL + "/registration"}`} component={Register} />
                 <Route path={`${process.env.PUBLIC_URL + "/contact"}`} component={Contact} />
-                <Route path={`${process.env.PUBLIC_URL + "/faq"}`} component={Faq} />
-                <Route path={`${process.env.PUBLIC_URL + "/404"}`} component={PageNotFound} />
-                <Route path={`${process.env.PUBLIC_URL + "/coming-soon"}`} component={ComingSoon} />
-                <Route path={`${process.env.PUBLIC_URL + "/blog-classic"}`} component={BlogClassic} />
-                <Route path={`${process.env.PUBLIC_URL + "/blog-grid"}`} component={BlogGrid} />
-                <Route path={`${process.env.PUBLIC_URL + "/blog-details"}`} component={BlogDetails} />
-                <Route path={`${process.env.PUBLIC_URL + "/products"}`} component={Product} />
-                <Route path={`${process.env.PUBLIC_URL + "/product-details"}`} component={ProductDetails} />
-                <Route path={`${process.env.PUBLIC_URL + "/cart"}`} component={Cart} />
+                <Route path={`${process.env.PUBLIC_URL + "/faq"}`} component={Faq}/>
+                <Route path={`${process.env.PUBLIC_URL + "/404"}`} component={PageNotFound}/>
+                <Route path={`${process.env.PUBLIC_URL + "/coming-soon"}`} component={ComingSoon}/>
+                <Route path={`${process.env.PUBLIC_URL + "/blog-classic"}`} component={BlogClassic}/>
+                <Route path={`${process.env.PUBLIC_URL + "/blog-grid"}`} component={BlogGrid}/>
+                <Route path={`${process.env.PUBLIC_URL + "/blog-details"}`} component={BlogDetails}/>
+                <Route path={`${process.env.PUBLIC_URL + "/products"}`} component={Product}/>
+                <Route path={`${process.env.PUBLIC_URL + "/product-details"}`} component={ProductDetails}/>
+                <Route path={`${process.env.PUBLIC_URL + "/cart"}`} component={Cart}/>
             </Switch>
+
+            <MessengerCustomerChat
+                pageId="106375861749847"
+                appId="1277536802694852"
+                htmlRef="https://carhood-garage-chatbot.herokuapp.com/"
+            />
+
         </Router>
     )
 }

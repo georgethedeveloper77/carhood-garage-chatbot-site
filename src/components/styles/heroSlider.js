@@ -49,8 +49,8 @@ export const Styles = styled.div`
                             .slider-box {
                                 .slider-title {
                                     p {
-                                        font-size     : 18px;
-                                        color         : ${colors.border3};
+                                        font-size     : 48px;
+                                        color         : ${colors.red};
                                         text-transform: uppercase;
                                         margin-bottom : 8px;
                                     }
@@ -58,7 +58,7 @@ export const Styles = styled.div`
 
                                 .slider-desc {
                                     h1 {
-                                        font-size    : 46px;
+                                        font-size    : 36px;
                                         color        : #ffffff;
                                         max-width    : 700px;
                                         margin-bottom: 32px;

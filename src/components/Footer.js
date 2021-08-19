@@ -15,12 +15,14 @@ class Footer extends Component {
                         <Row>
                             <Col md="4">
                                 <div className="footer-logo-info">
-                                    <img src={process.env.PUBLIC_URL + "/assets/images/f-logo.png"} alt="" className="img-fluid" />
-                                    <p>Lorem ipsum dolor sit amet, consectet adipisicing elit. Saepe porro neque a nam null quos.  Adipisci eius unde magnam ad, nisi voluptates.</p>
+                                    <img src={process.env.PUBLIC_URL + "/assets/images/f-logo-200_x_200.jpeg"} alt=""
+                                         className="img-fluid"/>
+                                    <p>Lorem ipsum dolor sit amet, consectet adipisicing elit. Saepe porro neque a nam
+                                        null quos. Adipisci eius unde magnam ad, nisi voluptates.</p>
                                     <ul className="list-unstyled">
-                                        <li><i className="las la-map-marker"></i>795 South Park Avenue, CA 94107</li>
-                                        <li><i className="las la-envelope"></i>enquery@domain.com</li>
-                                        <li><i className="las la-phone"></i>+1 908 875 7678</li>
+                                        <li><i className="las la-map-marker"/>Juja,Kenya</li>
+                                        <li><i className="las la-envelope"/>enquery@carhood.com</li>
+                                        <li><i className="las la-phone"/>+1 908 875 7678</li>
                                     </ul>
                                 </div>
                             </Col>
@@ -28,18 +30,28 @@ class Footer extends Component {
                                 <div className="f-links">
                                     <h5>Useful Links</h5>
                                     <ul className="list-unstyled">
-                                        <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"></i>General Info</Link></li>
-                                        <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"></i>Help Center</Link></li>
-                                        <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"></i>Our Services</Link></li>
-                                        <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"></i>Privacy Policy</Link></li>
-                                        <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"></i>Online Support</Link></li>
+                                        <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>General
+                                            Info</Link></li>
+                                        <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>Help
+                                            Center</Link></li>
+                                        <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>Our
+                                            Services</Link></li>
+                                        <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>Privacy
+                                            Policy</Link></li>
+                                        <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>Online
+                                            Support</Link></li>
                                     </ul>
                                     <ul className="list-unstyled">
-                                        <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"></i>General Info</Link></li>
-                                        <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"></i>Help Center</Link></li>
-                                        <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"></i>Our Services</Link></li>
-                                        <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"></i>Privacy Policy</Link></li>
-                                        <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"></i>Online Support</Link></li>
+                                        <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>General
+                                            Info</Link></li>
+                                        <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>Help
+                                            Center</Link></li>
+                                        <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>Our
+                                            Services</Link></li>
+                                        <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>Privacy
+                                            Policy</Link></li>
+                                        <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>Online
+                                            Support</Link></li>
                                     </ul>
                                 </div>
                             </Col>
@@ -76,16 +88,23 @@ class Footer extends Component {
                         <Row>
                             <Col md="6">
                                 <div className="copy-text">
-                                    <p>Copyright &copy; 2020 | Designed With <i className="las la-heart"></i> by <a href={process.env.PUBLIC_URL + "/"} target="_blank" rel="noopener noreferrer">SnazzyTheme</a></p>
+                                    <p>Copyright &copy; 2020 | Designed With by <a
+                                        href="https://georgethedeveloper.tech" target="_blank"
+                                        rel="noopener noreferrer"> georgethedeveloper</a></p>
                                 </div>
                             </Col>
                             <Col md="6" className="text-right">
                                 <ul className="social list-unstyled list-inline">
-                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-facebook-f"></i></a></li>
-                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-twitter"></i></a></li>
-                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-linkedin-in"></i></a></li>
-                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-youtube"></i></a></li>
-                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-dribbble"></i></a></li>
+                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
+                                        className="fab fa-facebook-f"/></a></li>
+                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
+                                        className="fab fa-twitter"/></a></li>
+                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
+                                        className="fab fa-linkedin-in"/></a></li>
+                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
+                                        className="fab fa-youtube"/></a></li>
+                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
+                                        className="fab fa-dribbble"/></a></li>
                                 </ul>
                             </Col>
                         </Row>
