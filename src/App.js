@@ -26,6 +26,7 @@ import Product from './pages/shop/Products';
 import ProductDetails from './pages/shop/ProductDetails';
 import Cart from './pages/shop/Cart';
 import MessengerCustomerChat from "react-messenger-customer-chat";
+import KommunicateChat from "./Chat";
 
 
 function App() {
@@ -58,6 +59,8 @@ function App() {
                 <Route path={`${process.env.PUBLIC_URL + "/product-details"}`} component={ProductDetails}/>
                 <Route path={`${process.env.PUBLIC_URL + "/cart"}`} component={Cart}/>
             </Switch>
+
+            <KommunicateChat/>
 
             <MessengerCustomerChat
                 pageId="106375861749847"
