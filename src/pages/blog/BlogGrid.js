@@ -18,10 +18,10 @@ class BlogGrid extends Component {
                 <div className="main-wrapper blog-grid-page">
 
                     {/* Header 2 */}
-                    <HeaderTwo />
+                    <HeaderTwo/>
 
                     {/* Breadcroumb */}
-                    <BreadcrumbBox title="Blog Grid" />
+                    <BreadcrumbBox title="Blog Grid"/>
 
                     {/* Blog Classic */}
                     <section className="blog-grid-area">
@@ -34,20 +34,30 @@ class BlogGrid extends Component {
                                                 <Col lg="6" md="12" key={i}>
                                                     <div className="blog-item">
                                                         <div className="blog-img">
-                                                            <Link to={process.env.PUBLIC_URL + data.postLink}><img src={process.env.PUBLIC_URL + `/assets/images/${data.postImg}`} alt="" className="img-fluid" /></Link>
+                                                            <Link to={process.env.PUBLIC_URL + data.postLink}><img
+                                                                src={process.env.PUBLIC_URL + `/assets/images/${data.postImg}`}
+                                                                alt="" className="img-fluid"/></Link>
                                                         </div>
                                                         <div className="blog-content">
                                                             <div className="blog-auth_date d-flex">
                                                                 <div className="author-img d-flex">
-                                                                    <Link to={process.env.PUBLIC_URL + data.authorLink}><img src={process.env.PUBLIC_URL + `/assets/images/${data.authorImg}`} alt="" /></Link>
-                                                                    <p><Link to={process.env.PUBLIC_URL + data.authorLink}>{data.authorName}</Link></p>
+                                                                    <Link to={process.env.PUBLIC_URL + data.authorLink}><img
+                                                                        src={process.env.PUBLIC_URL + `/assets/images/${data.authorImg}`}
+                                                                        alt=""/></Link>
+                                                                    <p><Link
+                                                                        to={process.env.PUBLIC_URL + data.authorLink}>{data.authorName}</Link>
+                                                                    </p>
                                                                 </div>
                                                                 <div className="post-date">
-                                                                    <p><i className="las la-calendar"></i> {data.postDate}</p>
+                                                                    <p><i
+                                                                        className="las la-calendar"></i> {data.postDate}
+                                                                    </p>
                                                                 </div>
                                                             </div>
                                                             <div className="blog-title">
-                                                                <h6><Link to={process.env.PUBLIC_URL + data.postLink}>{data.postTitle}</Link></h6>
+                                                                <h6><Link
+                                                                    to={process.env.PUBLIC_URL + data.postLink}>{data.postTitle}</Link>
+                                                                </h6>
                                                             </div>
                                                             <div className="blog-desc">
                                                                 <p>{data.postDesc}</p>
@@ -61,18 +71,18 @@ class BlogGrid extends Component {
                                     </Row>
 
                                     <div className="text-center">
-                                        <Pagination />
+                                        <Pagination/>
                                     </div>
                                 </Col>
                                 <Col lg="3" md="4" sm="5">
-                                    <BlogSidebar />
+                                    <BlogSidebar/>
                                 </Col>
                             </Row>
                         </Container>
                     </section>
 
                     {/* Footer 2 */}
-                    <FooterTwo />
+                    <FooterTwo/>
 
                 </div>
             </Styles>

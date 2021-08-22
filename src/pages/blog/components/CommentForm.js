@@ -65,19 +65,20 @@ function CommentForm() {
                     <Row>
                         <Col md="12">
                             <p className="form-control">
-                                <textarea name="comment" id="comment_form-desc" placeholder="Enter your comment"></textarea>
+                                <textarea name="comment" id="comment_form-desc"
+                                          placeholder="Enter your comment"></textarea>
                                 <span className="comment_form-input-msg"></span>
                             </p>
                         </Col>
                         <Col md="6">
                             <p className="form-control">
-                                <input type="name" placeholder="Enter your name" id="comment_form-name" />
+                                <input type="name" placeholder="Enter your name" id="comment_form-name"/>
                                 <span className="comment_form-input-msg"></span>
                             </p>
                         </Col>
                         <Col md="6">
                             <p className="form-control">
-                                <input type="email" placeholder="Enter your email" id="comment_form-email" />
+                                <input type="email" placeholder="Enter your email" id="comment_form-email"/>
                                 <span className="comment_form-input-msg"></span>
                             </p>
                         </Col>

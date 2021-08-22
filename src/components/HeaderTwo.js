@@ -244,7 +244,7 @@ class HeaderTwo extends Component {
                 <StickyMenu/>
 
                 {/* Mobile Menu */}
-                <MobileMenu />
+                <MobileMenu/>
             </Styles>
         )
     }

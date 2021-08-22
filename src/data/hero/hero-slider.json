@@ -1,13 +1,13 @@
 [
-    {
-      "id": "1",
-      "backgroundImage": "slider1-1920.png",
-      "uniqClass": "slider-box slider-box1",
-      "title": "Welcome To CarHood Garage.",
-      "desc": "Best Garage In This Region",
-      "btnOneLink": "about",
-      "btnTwoLink": "contact"
-    },
+  {
+    "id": "1",
+    "backgroundImage": "slider1-1920.png",
+    "uniqClass": "slider-box slider-box1",
+    "title": "Welcome To CarHood Garage.",
+    "desc": "Best Garage In This Region",
+    "btnOneLink": "about",
+    "btnTwoLink": "contact"
+  },
   {
     "id": "2",
     "backgroundImage": "engine.png",

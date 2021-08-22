@@ -16,36 +16,36 @@ export default class HomeTwo extends Component {
             <div className="main-wrapper">
 
                 {/* Header 2 */}
-                <HeaderTwo />
+                <HeaderTwo/>
 
                 {/* Hero Image */}
-                <HeroImage />
+                <HeroImage/>
 
 
                 {/* About Us 2 */}
-                <AboutUsTwo />
+                <AboutUsTwo/>
 
                 {/* Course Slider */}
-                <CourseSlider />
+                <CourseSlider/>
 
                 {/* Counter Area */}
-                <NumberCounter />
+                <NumberCounter/>
 
                 {/* Free Course Area */}
-                <FreeCourse />
+                <FreeCourse/>
 
                 {/* Team Slider */}
-                <TeamSlider />
+                <TeamSlider/>
 
                 {/* Testimonial Slider */}
-                <TestimonialSlider />
+                <TestimonialSlider/>
 
                 {/* Blog Area */}
-                <HomeBlog />
+                <HomeBlog/>
 
 
                 {/* Footer 2 */}
-                <FooterTwo />
+                <FooterTwo/>
 
             </div>
         )

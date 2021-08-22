@@ -45,10 +45,14 @@ function FaqEvent() {
                                                         <p>{eventData.eventDate}</p>
                                                     </div>
                                                     <div className="event-details">
-                                                        <h6><Link to={eventData.eventLink}>{eventData.eventTitle}</Link></h6>
+                                                        <h6><Link to={eventData.eventLink}>{eventData.eventTitle}</Link>
+                                                        </h6>
                                                         <ul className="list-unstyled list-inline">
-                                                            <li className="list-inline-item"><i className="las la-clock"></i>{eventData.eventTime}</li>
-                                                            <li className="list-inline-item"><i className="las la-map-marker"></i>{eventData.eventLocation}</li>
+                                                            <li className="list-inline-item"><i
+                                                                className="las la-clock"></i>{eventData.eventTime}</li>
+                                                            <li className="list-inline-item"><i
+                                                                className="las la-map-marker"></i>{eventData.eventLocation}
+                                                            </li>
                                                         </ul>
                                                         <p>{eventData.eventdesc}</p>
                                                     </div>
@@ -69,7 +73,8 @@ function FaqEvent() {
                                         Datas.faqDataList.map((faqData, i) => (
                                             <div className="faq-item" key={i}>
                                                 <button className="accordion-button active">
-                                                    <div className="accordion-icon"><i className="las la-plus"></i></div>
+                                                    <div className="accordion-icon"><i className="las la-plus"></i>
+                                                    </div>
                                                     <p>{faqData.faqTitle}</p>
                                                 </button>
                                                 <div className="accordion-content show">

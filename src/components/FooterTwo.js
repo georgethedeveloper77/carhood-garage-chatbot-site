@@ -46,7 +46,8 @@ function FooterTwo() {
     return (
         <Styles>
             {/* Footer Two */}
-            <footer className="footer2" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/${Datas.backgroundImage})` }}>
+            <footer className="footer2"
+                    style={{backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/${Datas.backgroundImage})`}}>
                 <Container>
                     <Row>
                         <Col md="3">
@@ -87,7 +88,8 @@ function FooterTwo() {
                                         <i className="fab fa-twitter"/>
                                     </div>
                                     <div className="po-content">
-                                        <Link to={process.env.PUBLIC_URL + "/blog-details"}>Lorem ipsum dolor sit ...</Link>
+                                        <Link to={process.env.PUBLIC_URL + "/blog-details"}>Lorem ipsum dolor sit
+                                            ...</Link>
                                         <span>Mar 30, 2019</span>
                                     </div>
                                 </div>
@@ -96,7 +98,8 @@ function FooterTwo() {
                                         <i className="fab fa-twitter"/>
                                     </div>
                                     <div className="po-content">
-                                        <Link to={process.env.PUBLIC_URL + "/blog-details"}>Lorem ipsum dolor sit ...</Link>
+                                        <Link to={process.env.PUBLIC_URL + "/blog-details"}>Lorem ipsum dolor sit
+                                            ...</Link>
                                         <span>Mar 30, 2019</span>
                                     </div>
                                 </div>
@@ -105,7 +108,8 @@ function FooterTwo() {
                                         <i className="fab fa-twitter"/>
                                     </div>
                                     <div className="po-content">
-                                        <Link to={process.env.PUBLIC_URL + "/blog-details"}>Lorem ipsum dolor sit ...</Link>
+                                        <Link to={process.env.PUBLIC_URL + "/blog-details"}>Lorem ipsum dolor sit
+                                            ...</Link>
                                         <span>Mar 30, 2019</span>
                                     </div>
                                 </div>
@@ -149,7 +153,7 @@ function FooterTwo() {
                 </Container>
 
                 {/* Back To Top  */}
-                <BackToTop />
+                <BackToTop/>
             </footer>
         </Styles>
     );

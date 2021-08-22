@@ -21,7 +21,7 @@ class Header extends Component {
                                         <li className="list-inline-item"><i className="las la-map-marker"></i>Juja,
                                             Kenya
                                         </li>
-                                        <li className="list-inline-item"><Link to={process.env.PUBLIC_URL + "/faq"}>Have
+                                        <li className="list-inline-item"><Link to={process.env.PUBLIC_URL + "/contact"}>Have
                                             Questions</Link></li>
                                     </ul>
                                 </div>
@@ -57,7 +57,9 @@ class Header extends Component {
                                                     <Dropdown.Item as="li"><img
                                                         src={process.env.PUBLIC_URL + "/assets/images/spa.png"}
                                                         alt=""/> Spanish</Dropdown.Item>
-                                                    <Dropdown.Item as="li"><img src={process.env.PUBLIC_URL + "/assets/images/bra.png"} alt="" /> Brazilian</Dropdown.Item>
+                                                    <Dropdown.Item as="li"><img
+                                                        src={process.env.PUBLIC_URL + "/assets/images/bra.png"}
+                                                        alt=""/> Brazilian</Dropdown.Item>
                                                 </Dropdown.Menu>
                                             </Dropdown>
                                         </li>
@@ -218,15 +220,16 @@ class Header extends Component {
                                         </ul>
                                         <ul className="nav search-cart-bar">
                                             <li className="nav-item search-box">
-                                                <Search />
+                                                <Search/>
                                             </li>
                                             <li className="nav-item cart-box">
-                                                <Link to={process.env.PUBLIC_URL + "/cart"} className="nav-link nav-cart">
+                                                <Link to={process.env.PUBLIC_URL + "/cart"}
+                                                      className="nav-link nav-cart">
                                                     <i className="las la-shopping-bag"/>
                                                 </Link>
                                             </li>
                                             <li className="nav-item side-box">
-                                                <Sidebar />
+                                                <Sidebar/>
                                             </li>
                                         </ul>
                                     </div>
@@ -237,10 +240,10 @@ class Header extends Component {
                 </section>
 
                 {/* Sticky Menu */}
-                <StickyMenu />
+                <StickyMenu/>
 
                 {/* Mobile Menu */}
-                <MobileMenu />
+                <MobileMenu/>
             </Styles>
         )
     }

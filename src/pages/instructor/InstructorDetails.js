@@ -43,10 +43,10 @@ class InstructorDetails extends Component {
                 <div className="main-wrapper instructor-details-page">
 
                     {/* Header 2 */}
-                    <HeaderTwo />
+                    <HeaderTwo/>
 
                     {/* Breadcroumb */}
-                    <BreadcrumbBox title="Instructor Details" />
+                    <BreadcrumbBox title="Instructor Details"/>
 
                     {/* Instructor Details Area */}
                     <section className="instructor-details-area">
@@ -54,26 +54,43 @@ class InstructorDetails extends Component {
                             <Row>
                                 <Col md="4">
                                     <div className="instructor-img">
-                                        <img src={process.env.PUBLIC_URL + `/assets/images/team-7.jpg`} alt="" className="img-fluid" />
+                                        <img src={process.env.PUBLIC_URL + `/assets/images/team-7.jpg`} alt=""
+                                             className="img-fluid"/>
                                         <ul className="list-unstyled getintouch">
                                             <li><i className="las la-phone"></i> +1 (396) 486 4709</li>
                                             <li><i className="lar la-envelope"></i> mail@contactme.com</li>
                                             <li><i className="lab la-skype"></i> contact.me</li>
                                         </ul>
                                         <ul className="social list-unstyled list-inline">
-                                            <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-facebook-f"></i></a></li>
-                                            <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-twitter"></i></a></li>
-                                            <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-linkedin-in"></i></a></li>
-                                            <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-youtube"></i></a></li>
-                                            <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-dribbble"></i></a></li>
+                                            <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
+                                                className="fab fa-facebook-f"></i></a></li>
+                                            <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
+                                                className="fab fa-twitter"></i></a></li>
+                                            <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
+                                                className="fab fa-linkedin-in"></i></a></li>
+                                            <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
+                                                className="fab fa-youtube"></i></a></li>
+                                            <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
+                                                className="fab fa-dribbble"></i></a></li>
                                         </ul>
                                     </div>
                                 </Col>
                                 <Col md="8">
                                     <div className="instructor-content">
                                         <h4>Kamal Sulaiman</h4>
-                                        <span>Senior Teacher</span>
-                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis tenetur accusantium laudantium! Vitae libero voluptatum velit earum corrupti officia quo, magnam mollitia nam provident tempora. Ipsum quaerat tempora odit maxime. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, molestiae. Quae illum non sit. In sapiente, reiciendis sunt aperiam repellendus quibusdam repudiandae, dolores tempore esse vero aliquid illum neque voluptatem.<br /><br />Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, aliquid illo? Quia dolore obcaecati incidunt perferendis minus error repudiandae iure perspiciatis maxime assumenda? Sit dicta, odit sunt maiores incidunt culpa. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda voluptate quisquam quis officiis.</p>
+                                        <span>Senior Mechanic</span>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis tenetur
+                                            accusantium laudantium! Vitae libero voluptatum velit earum corrupti officia
+                                            quo, magnam mollitia nam provident tempora. Ipsum quaerat tempora odit
+                                            maxime. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio,
+                                            molestiae. Quae illum non sit. In sapiente, reiciendis sunt aperiam
+                                            repellendus quibusdam repudiandae, dolores tempore esse vero aliquid illum
+                                            neque voluptatem.<br/><br/>Lorem ipsum dolor, sit amet consectetur
+                                            adipisicing elit. Corrupti, aliquid illo? Quia dolore obcaecati incidunt
+                                            perferendis minus error repudiandae iure perspiciatis maxime assumenda? Sit
+                                            dicta, odit sunt maiores incidunt culpa. Lorem ipsum dolor sit amet
+                                            consectetur, adipisicing elit. Assumenda voluptate quisquam quis officiis.
+                                        </p>
                                     </div>
                                     <div className="qual-expe d-flex">
                                         <div className="qualification">
@@ -110,10 +127,13 @@ class InstructorDetails extends Component {
                                                 Datas.map((data, i) => (
                                                     <div className="course-item" key={i}>
                                                         <Link to={process.env.PUBLIC_URL + data.courseLink}>
-                                                            <div className="course-image" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/${data.imgUrl})` }}>
+                                                            <div className="course-image"
+                                                                 style={{backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/${data.imgUrl})`}}>
                                                                 <div className="author-img d-flex">
                                                                     <div className="img">
-                                                                        <img src={process.env.PUBLIC_URL + `/assets/images/${data.authorImg}`} alt="" />
+                                                                        <img
+                                                                            src={process.env.PUBLIC_URL + `/assets/images/${data.authorImg}`}
+                                                                            alt=""/>
                                                                     </div>
                                                                     <div className="title">
                                                                         <p>{data.authorName}</p>
@@ -126,7 +146,9 @@ class InstructorDetails extends Component {
                                                             </div>
                                                         </Link>
                                                         <div className="course-content">
-                                                            <h6 className="heading"><Link to={process.env.PUBLIC_URL + data.courseLink}>{data.courseTitle}</Link></h6>
+                                                            <h6 className="heading"><Link
+                                                                to={process.env.PUBLIC_URL + data.courseLink}>{data.courseTitle}</Link>
+                                                            </h6>
                                                             <p className="desc">{data.courseDesc}</p>
                                                             <div className="course-face d-flex justify-content-between">
                                                                 <div className="duration">
@@ -164,7 +186,7 @@ class InstructorDetails extends Component {
                     </section>
 
                     {/* Footer 2 */}
-                    <FooterTwo />
+                    <FooterTwo/>
 
                 </div>
             </Styles>

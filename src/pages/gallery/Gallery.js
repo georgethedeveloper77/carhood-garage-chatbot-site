@@ -17,10 +17,10 @@ class Gallery extends Component {
                 <div className="main-wrapper gallery-page">
 
                     {/* Header 2 */}
-                    <HeaderTwo />
+                    <HeaderTwo/>
 
                     {/* Breadcroumb */}
-                    <BreadcrumbBox title="Gallery" />
+                    <BreadcrumbBox title="Gallery"/>
 
                     {/* Gallery Area */}
                     <section className="gallery-page-area">
@@ -30,21 +30,24 @@ class Gallery extends Component {
                                     Datas.map((data, i) => (
                                         <Col lg="4" sm="6" key={i}>
                                             <div className="gallery-box">
-                                                <ModalImage small={process.env.PUBLIC_URL + `/assets/images/${data.galleryImage}`} large={process.env.PUBLIC_URL + `/assets/images/${data.galleryImage}`} alt="" />
+                                                <ModalImage
+                                                    small={process.env.PUBLIC_URL + `/assets/images/${data.galleryImage}`}
+                                                    large={process.env.PUBLIC_URL + `/assets/images/${data.galleryImage}`}
+                                                    alt=""/>
                                             </div>
                                         </Col>
                                     ))
                                 }
 
                                 <Col md="12" className="text-center">
-                                    <Pagination />
+                                    <Pagination/>
                                 </Col>
                             </Row>
                         </Container>
                     </section>
 
                     {/* Footer 2 */}
-                    <FooterTwo />
+                    <FooterTwo/>
 
                 </div>
             </Styles>

@@ -63,9 +63,11 @@ function MobileMenu() {
                                 </div>
                                 <div className="topbar-item">
                                     <ul className="list-unstyled list-inline">
-                                        <li className="list-inline-item"><Link to={process.env.PUBLIC_URL + "/login"}>Log In</Link></li>
+                                        <li className="list-inline-item"><Link to={process.env.PUBLIC_URL + "/login"}>Log
+                                            In</Link></li>
                                         <li className="list-inline-item">/</li>
-                                        <li className="list-inline-item"><Link to={process.env.PUBLIC_URL + "/registration"}>Register</Link></li>
+                                        <li className="list-inline-item"><Link
+                                            to={process.env.PUBLIC_URL + "/registration"}>Register</Link></li>
                                     </ul>
                                 </div>
                             </div>

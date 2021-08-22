@@ -17,10 +17,10 @@ class Product extends Component {
                 <div className="main-wrapper product-page">
 
                     {/* Header 2 */}
-                    <HeaderTwo />
+                    <HeaderTwo/>
 
                     {/* Breadcroumb */}
-                    <BreadcrumbBox title="Products" />
+                    <BreadcrumbBox title="Products"/>
 
                     {/* Products */}
                     <section className="product-area">
@@ -33,23 +33,36 @@ class Product extends Component {
                                                 <Col lg="4" md="6" key={i}>
                                                     <div className="product-box">
                                                         <div className="product-img">
-                                                            <img src={process.env.PUBLIC_URL + `/assets/images/${data.productImg}`} alt="" className="img-fluid" />
+                                                            <img
+                                                                src={process.env.PUBLIC_URL + `/assets/images/${data.productImg}`}
+                                                                alt="" className="img-fluid"/>
                                                             <span>{data.discount}</span>
                                                             <div className="layer-box"></div>
-                                                            <Link className="add_cart" to={process.env.PUBLIC_URL + data.productUrl}>Add To Cart</Link>
-                                                            <Link className="item_view" to={process.env.PUBLIC_URL + data.productUrl}>View Item</Link>
+                                                            <Link className="add_cart"
+                                                                  to={process.env.PUBLIC_URL + data.productUrl}>Add To
+                                                                Cart</Link>
+                                                            <Link className="item_view"
+                                                                  to={process.env.PUBLIC_URL + data.productUrl}>View
+                                                                Item</Link>
                                                         </div>
                                                         <div className="product-content text-center">
                                                             <div className="pro-title">
-                                                                <h5><Link to={process.env.PUBLIC_URL + data.productUrl}>{data.productTitle}</Link></h5>
+                                                                <h5><Link
+                                                                    to={process.env.PUBLIC_URL + data.productUrl}>{data.productTitle}</Link>
+                                                                </h5>
                                                             </div>
                                                             <div className="pro-rating">
                                                                 <ul className="list-unstyled list-inline">
-                                                                    <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                                    <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                                    <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                                    <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                                    <li className="list-inline-item"><i className="las la-star-half-alt"></i></li>
+                                                                    <li className="list-inline-item"><i
+                                                                        className="las la-star"></i></li>
+                                                                    <li className="list-inline-item"><i
+                                                                        className="las la-star"></i></li>
+                                                                    <li className="list-inline-item"><i
+                                                                        className="las la-star"></i></li>
+                                                                    <li className="list-inline-item"><i
+                                                                        className="las la-star"></i></li>
+                                                                    <li className="list-inline-item"><i
+                                                                        className="las la-star-half-alt"></i></li>
                                                                 </ul>
                                                             </div>
                                                             <div className="pro-price">
@@ -62,20 +75,20 @@ class Product extends Component {
                                         }
 
                                         <Col md="12" className="text-center">
-                                            <Pagination />
+                                            <Pagination/>
                                         </Col>
                                     </Row>
                                 </Col>
 
                                 <Col lg="3" md="4" sm="5">
-                                    <ShopSidebar />
+                                    <ShopSidebar/>
                                 </Col>
                             </Row>
                         </Container>
                     </section>
 
                     {/* Footer 2 */}
-                    <FooterTwo />
+                    <FooterTwo/>
 
                 </div>
             </Styles>

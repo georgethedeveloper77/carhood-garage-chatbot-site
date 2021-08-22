@@ -68,13 +68,13 @@ function NewsletterForm() {
                                         <Row>
                                             <Col md="4">
                                                 <p className="form-control">
-                                                    <input type="text" placeholder="Enter your Name" id="name2" />
+                                                    <input type="text" placeholder="Enter your Name" id="name2"/>
                                                     <span className="input-msg2"></span>
                                                 </p>
                                             </Col>
                                             <Col md="4">
                                                 <p className="form-control">
-                                                    <input type="email" placeholder="Enter your Email" id="email2" />
+                                                    <input type="email" placeholder="Enter your Email" id="email2"/>
                                                     <span className="input-msg2"></span>
                                                 </p>
                                             </Col>

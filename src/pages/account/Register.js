@@ -90,10 +90,10 @@ function Register() {
             <div className="main-wrapper registration-page">
 
                 {/* Header 2 */}
-                <HeaderTwo />
+                <HeaderTwo/>
 
                 {/* Breadcroumb */}
-                <BreadcrumbBox title="Registration" />
+                <BreadcrumbBox title="Registration"/>
 
                 {/* Registration Area */}
                 <section className="registration-area">
@@ -107,32 +107,33 @@ function Register() {
                                     <form id="form_registration" className="form">
                                         <p className="form-control">
                                             <label htmlFor="registration_fname">First Name</label>
-                                            <input type="text" placeholder="First name" id="registration_fname" />
+                                            <input type="text" placeholder="First name" id="registration_fname"/>
                                             <span className="registration_input-msg"></span>
                                         </p>
                                         <p className="form-control">
                                             <label htmlFor="registration_lname">Last Name</label>
-                                            <input type="text" placeholder="Last name" id="registration_lname" />
+                                            <input type="text" placeholder="Last name" id="registration_lname"/>
                                             <span className="registration_input-msg"></span>
                                         </p>
                                         <p className="form-control">
                                             <label htmlFor="registration_email">Email Address</label>
-                                            <input type="email" placeholder="Email address" id="registration_email" />
+                                            <input type="email" placeholder="Email address" id="registration_email"/>
                                             <span className="registration_input-msg"></span>
                                         </p>
                                         <p className="form-control">
                                             <label htmlFor="registration_user">User Name</label>
-                                            <input type="text" placeholder="Username" id="registration_user" />
+                                            <input type="text" placeholder="Username" id="registration_user"/>
                                             <span className="registration_input-msg"></span>
                                         </p>
                                         <p className="form-control">
                                             <label htmlFor="registration_password">Password</label>
-                                            <input type="password" placeholder="*******" id="registration_password" />
+                                            <input type="password" placeholder="*******" id="registration_password"/>
                                             <span className="registration_input-msg"></span>
                                         </p>
                                         <p className="form-control">
                                             <label htmlFor="registration_cpassword">Confirm Password</label>
-                                            <input type="password" placeholder="Confirm password" id="registration_cpassword" />
+                                            <input type="password" placeholder="Confirm password"
+                                                   id="registration_cpassword"/>
                                             <span className="registration_input-msg"></span>
                                         </p>
                                         <button>Register Now</button>
@@ -147,7 +148,7 @@ function Register() {
                 </section>
 
                 {/* Footer 2 */}
-                <FooterTwo />
+                <FooterTwo/>
 
             </div>
         </Styles>

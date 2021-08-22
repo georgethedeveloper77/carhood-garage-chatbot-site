@@ -11,8 +11,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6293066-9b69-43f4-bb14-27ee55f69397" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/images/about-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/imagegallery-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/imagegallery-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/imagegallery-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/imagegallery-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/testimonial-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/testimonial-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/videobg.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/flaticon.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/flaticon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/line-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/line-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Flaticon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/fonts/Flaticon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/fa-solid-900.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/fonts/fa-solid-900.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/flaticon.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/fonts/flaticon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/la-solid-900.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/fonts/la-solid-900.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/aboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/aboutUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/faqEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/faqEvent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/about-us/about-us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/about-us/about-us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/event/details.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/event/details.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/faq-event/faq-event.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/faq-event/faq-event.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/gallery/gallery.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/gallery/gallery.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/icon-box/icon-box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/icon-box/icon-box.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/instructor/instructor.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/instructor/instructor.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/service/service-box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/service/service-box.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/team/team-slider.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/team/team-slider.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/testimonial/testimonial-slider.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/testimonial/testimonial-slider.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/instructor/InstructorDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/instructor/InstructorDetails.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +97,7 @@
       <workItem from="1629403191104" duration="135000" />
       <workItem from="1629422219330" duration="475000" />
       <workItem from="1629434396257" duration="975000" />
-      <workItem from="1629615661021" duration="839000" />
+      <workItem from="1629615661021" duration="3929000" />
     </task>
     <task id="LOCAL-00001" summary="PWA">
       <created>1629134181559</created>
@@ -119,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629616493095</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="KommunicateChat">
+      <created>1629618033819</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1629618033819</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,13 +211,13 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="995" height="274" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1629136435990" />
-    <state x="115" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1629403301261">
+    <state x="115" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1629618038760">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="115" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1629403301261" />
-    <state x="831" y="510" width="841" height="570" key="find.popup" timestamp="1629400988106">
+    <state x="115" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1629618038760" />
+    <state x="831" y="510" width="841" height="570" key="find.popup" timestamp="1629619997301">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="831" y="510" width="841" height="570" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1629400988106" />
+    <state x="831" y="510" width="841" height="570" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1629619997301" />
   </component>
 </project>

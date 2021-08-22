@@ -16,10 +16,13 @@ class PopularCourse extends Component {
 
                                 <div className="item-box d-flex" key={i}>
                                     <div className="item-img">
-                                        <Link to={process.env.PUBLIC_URL + data.courseLink}><img src={process.env.PUBLIC_URL + `/assets/images/${data.imgUrl}`} alt="" /></Link>
+                                        <Link to={process.env.PUBLIC_URL + data.courseLink}><img
+                                            src={process.env.PUBLIC_URL + `/assets/images/${data.imgUrl}`}
+                                            alt=""/></Link>
                                     </div>
                                     <div className="item-content">
-                                        <p className="title"><Link to={process.env.PUBLIC_URL + data.courseLink}>{data.courseTitle}</Link></p>
+                                        <p className="title"><Link
+                                            to={process.env.PUBLIC_URL + data.courseLink}>{data.courseTitle}</Link></p>
                                         <ul className="list-unstyled list-inline rating">
                                             <li className="list-inline-item"><i className="las la-star"></i></li>
                                             <li className="list-inline-item"><i className="las la-star"></i></li>

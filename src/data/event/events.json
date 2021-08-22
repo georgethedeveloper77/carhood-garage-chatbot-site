@@ -1,14 +1,14 @@
 [
-    {
-      "id": "1",
-      "eventImg": "event-01.jpg",
-      "eventDate": "25 March",
-      "eventTitle": "Ratione omnis consequuntur placeae consol.",
-      "eventTime": "7:30pm",
-      "eventLocation": "Juja, Kenya",
-      "eventdesc": "Fugiat et aperiam similique, perferendis maiores tenetur voluptatem consequuntur harum unde illo alias mollitia a cumque.",
-      "eventLink": "/event-details"
-    },
+  {
+    "id": "1",
+    "eventImg": "event-01.jpg",
+    "eventDate": "25 March",
+    "eventTitle": "Ratione omnis consequuntur placeae consol.",
+    "eventTime": "7:30pm",
+    "eventLocation": "Juja, Kenya",
+    "eventdesc": "Fugiat et aperiam similique, perferendis maiores tenetur voluptatem consequuntur harum unde illo alias mollitia a cumque.",
+    "eventLink": "/event-details"
+  },
   {
     "id": "2",
     "eventImg": "event-02.jpg",

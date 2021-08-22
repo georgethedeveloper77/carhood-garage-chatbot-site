@@ -60,7 +60,8 @@ function HelpArea() {
     return (
         <Styles>
             {/* Help Area */}
-            <section className="home-contact-area" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/${Datas.backgroundImage})` }}>
+            <section className="home-contact-area"
+                     style={{backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/${Datas.backgroundImage})`}}>
                 <Container>
                     <Row>
                         <Col md="12">
@@ -73,19 +74,19 @@ function HelpArea() {
                                 <Row>
                                     <Col md="4">
                                         <p className="form-control">
-                                            <input type="text" placeholder="Enter your Name" id="name1" />
+                                            <input type="text" placeholder="Enter your Name" id="name1"/>
                                             <span className="input-msg1"></span>
                                         </p>
                                     </Col>
                                     <Col md="4">
                                         <p className="form-control">
-                                            <input type="email" placeholder="Enter your Email" id="email1" />
+                                            <input type="email" placeholder="Enter your Email" id="email1"/>
                                             <span className="input-msg1"></span>
                                         </p>
                                     </Col>
                                     <Col md="4">
                                         <p className="form-control">
-                                            <input type="text" placeholder="Enter Subject" id="subject1" />
+                                            <input type="text" placeholder="Enter Subject" id="subject1"/>
                                             <span className="input-msg1"></span>
                                         </p>
                                     </Col>

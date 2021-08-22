@@ -24,9 +24,9 @@ function Quantity() {
                 <ul className="list-unstyled list-inline">
                     <li className="list-inline-item">Qty :</li>
                     <li className="list-inline-item" id="qty-input">
-                        <input type="button" defaultValue="-" id="minus" />
-                        <input type="text" defaultValue="1" id="count" />
-                        <input type="button" defaultValue="+" id="plus" />
+                        <input type="button" defaultValue="-" id="minus"/>
+                        <input type="text" defaultValue="1" id="count"/>
+                        <input type="button" defaultValue="+" id="plus"/>
                     </li>
                 </ul>
             </div>

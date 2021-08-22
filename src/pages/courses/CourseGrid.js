@@ -14,10 +14,10 @@ class CourseGrid extends Component {
             <div className="main-wrapper course-page">
 
                 {/* Header 2 */}
-                <HeaderTwo />
+                <HeaderTwo/>
 
                 {/* Breadcroumb */}
-                <BreadcrumbBox title="Courses" />
+                <BreadcrumbBox title="Courses"/>
 
                 <Styles>
                     {/* Course Grid */}
@@ -25,12 +25,12 @@ class CourseGrid extends Component {
                         <Container>
                             <Row>
                                 <Col lg="3" md="4" sm="5">
-                                    <CourseSidebar />
+                                    <CourseSidebar/>
                                 </Col>
                                 <Col lg="9" md="8" sm="7">
                                     <div className="course-items">
                                         <Row>
-                                            <CourseItemGrid />
+                                            <CourseItemGrid/>
                                         </Row>
                                     </div>
                                 </Col>
@@ -40,7 +40,7 @@ class CourseGrid extends Component {
                 </Styles>
 
                 {/* Footer 2 */}
-                <FooterTwo />
+                <FooterTwo/>
 
             </div>
         )

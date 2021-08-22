@@ -14,10 +14,10 @@ class Faq extends Component {
                 <div className="main-wrapper faq-page">
 
                     {/* Header 2 */}
-                    <HeaderTwo />
+                    <HeaderTwo/>
 
                     {/* Breadcroumb */}
-                    <BreadcrumbBox title="Faq" />
+                    <BreadcrumbBox title="Faq"/>
 
                     {/* Faq Area */}
                     <section className="faq-area">
@@ -41,7 +41,8 @@ class Faq extends Component {
                                                                 <div className="faq-item">
                                                                     <div className="faq-title d-flex">
                                                                         <div className="title-icon"><span>Q</span></div>
-                                                                        <div className="title-text"><p>{data.faqTitle}</p></div>
+                                                                        <div className="title-text">
+                                                                            <p>{data.faqTitle}</p></div>
                                                                     </div>
                                                                     <div className="faq-desc">
                                                                         <p>{data.faqDesc}</p>
@@ -60,7 +61,8 @@ class Faq extends Component {
                                                                 <div className="faq-item">
                                                                     <div className="faq-title d-flex">
                                                                         <div className="title-icon"><span>Q</span></div>
-                                                                        <div className="title-text"><p>{data.faqTitle}</p></div>
+                                                                        <div className="title-text">
+                                                                            <p>{data.faqTitle}</p></div>
                                                                     </div>
                                                                     <div className="faq-desc">
                                                                         <p>{data.faqDesc}</p>
@@ -79,7 +81,8 @@ class Faq extends Component {
                                                                 <div className="faq-item">
                                                                     <div className="faq-title d-flex">
                                                                         <div className="title-icon"><span>Q</span></div>
-                                                                        <div className="title-text"><p>{data.faqTitle}</p></div>
+                                                                        <div className="title-text">
+                                                                            <p>{data.faqTitle}</p></div>
                                                                     </div>
                                                                     <div className="faq-desc">
                                                                         <p>{data.faqDesc}</p>
@@ -98,7 +101,8 @@ class Faq extends Component {
                                                                 <div className="faq-item">
                                                                     <div className="faq-title d-flex">
                                                                         <div className="title-icon"><span>Q</span></div>
-                                                                        <div className="title-text"><p>{data.faqTitle}</p></div>
+                                                                        <div className="title-text">
+                                                                            <p>{data.faqTitle}</p></div>
                                                                     </div>
                                                                     <div className="faq-desc">
                                                                         <p>{data.faqDesc}</p>
@@ -117,7 +121,8 @@ class Faq extends Component {
                                                                 <div className="faq-item">
                                                                     <div className="faq-title d-flex">
                                                                         <div className="title-icon"><span>Q</span></div>
-                                                                        <div className="title-text"><p>{data.faqTitle}</p></div>
+                                                                        <div className="title-text">
+                                                                            <p>{data.faqTitle}</p></div>
                                                                     </div>
                                                                     <div className="faq-desc">
                                                                         <p>{data.faqDesc}</p>
@@ -136,7 +141,7 @@ class Faq extends Component {
                     </section>
 
                     {/* Footer 2 */}
-                    <FooterTwo />
+                    <FooterTwo/>
 
                 </div>
             </Styles>

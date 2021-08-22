@@ -5,18 +5,18 @@
     {
       "id": "1",
       "testimonialTitle": "It is great to be a part of this community.",
-      "testimonialDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitation maior. Placeat repellat, et totam optio. Sequi qui laborum ratione cumque tempo totam voluptatum.",
-      "authorImg": "testimonial-1.jpg",
-      "authorName": "David Show",
-      "authorTitle": "Developer"
+      "testimonialDesc": "Recently took my vehicle there for the first time for a water pump replacement. They were very friendly, did a great job, didn't charge me any extra fees above their quote, and got it done on time. Very happy with the experience.",
+      "authorImg": "testimonial-1.png",
+      "authorName": "David",
+      "authorTitle": "Client"
     },
-        {
-            "id": "2",
-            "testimonialTitle": "It is great to be a part of this community.",
-            "testimonialDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitation maior. Placeat repellat, et totam optio. Sequi qui laborum ratione cumque tempo totam voluptatum.",
-            "authorImg": "testimonial-2.jpg",
-            "authorName": "Tom Parker",
-            "authorTitle": "Programmer"
-        }
-    ]
+    {
+      "id": "2",
+      "testimonialTitle": "It is great Customer Service.",
+      "testimonialDesc": "Good, honest mechanics! They always get me in quickly, the prices are great, and the waiting area is really nice and comfy. Definitely the nicest auto shop I’ve ever been to.",
+      "authorImg": "testimonial-2.png",
+      "authorName": "Maggie",
+      "authorTitle": "Client"
+    }
+  ]
 }

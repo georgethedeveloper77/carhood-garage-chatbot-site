@@ -18,10 +18,10 @@ class BlogClassic extends Component {
                 <div className="main-wrapper blog-classic-page">
 
                     {/* Header 2 */}
-                    <HeaderTwo />
+                    <HeaderTwo/>
 
                     {/* Breadcroumb */}
-                    <BreadcrumbBox title="Blog Classic" />
+                    <BreadcrumbBox title="Blog Classic"/>
 
                     {/* Blog Classic */}
                     <section className="blog-classic-area">
@@ -32,12 +32,18 @@ class BlogClassic extends Component {
                                         Datas.map((data, i) => (
                                             <div className="blog-item" key={i}>
                                                 <div className="blog-img">
-                                                    <Link to={process.env.PUBLIC_URL + data.postLink}><img src={process.env.PUBLIC_URL + `/assets/images/${data.postImg}`} alt="" className="img-fluid" /></Link>
+                                                    <Link to={process.env.PUBLIC_URL + data.postLink}><img
+                                                        src={process.env.PUBLIC_URL + `/assets/images/${data.postImg}`}
+                                                        alt="" className="img-fluid"/></Link>
                                                 </div>
                                                 <div className="blog-auth_date d-flex">
                                                     <div className="author-img d-flex">
-                                                        <Link to={process.env.PUBLIC_URL + data.authorLink}><img src={process.env.PUBLIC_URL + `/assets/images/${data.authorImg}`} alt="" /></Link>
-                                                        <p><Link to={process.env.PUBLIC_URL + data.authorLink}>{data.authorName}</Link></p>
+                                                        <Link to={process.env.PUBLIC_URL + data.authorLink}><img
+                                                            src={process.env.PUBLIC_URL + `/assets/images/${data.authorImg}`}
+                                                            alt=""/></Link>
+                                                        <p><Link
+                                                            to={process.env.PUBLIC_URL + data.authorLink}>{data.authorName}</Link>
+                                                        </p>
                                                     </div>
                                                     <div className="post-date">
                                                         <p><i className="las la-calendar"></i> {data.postDate}</p>
@@ -50,7 +56,9 @@ class BlogClassic extends Component {
                                                     </div>
                                                 </div>
                                                 <div className="blog-title">
-                                                    <h5><Link to={process.env.PUBLIC_URL + data.postLink}>{data.postTitle}</Link></h5>
+                                                    <h5><Link
+                                                        to={process.env.PUBLIC_URL + data.postLink}>{data.postTitle}</Link>
+                                                    </h5>
                                                 </div>
                                             </div>
                                         ))
@@ -58,19 +66,19 @@ class BlogClassic extends Component {
 
                                     <Row>
                                         <Col md="12" className="text-center">
-                                            <Pagination />
+                                            <Pagination/>
                                         </Col>
                                     </Row>
                                 </Col>
                                 <Col lg="3" md="4" sm="5">
-                                    <BlogSidebar />
+                                    <BlogSidebar/>
                                 </Col>
                             </Row>
                         </Container>
                     </section>
 
                     {/* Footer 2 */}
-                    <FooterTwo />
+                    <FooterTwo/>
 
                 </div>
             </Styles>

@@ -10,7 +10,8 @@ class Footer extends Component {
         return (
             <Styles>
                 {/* Footer Area */}
-                <footer className="footer1" style={{ backgroundImage: `url(assets/images/${process.env.PUBLIC_URL + Datas.backgroundImage})` }}>
+                <footer className="footer1"
+                        style={{backgroundImage: `url(assets/images/${process.env.PUBLIC_URL + Datas.backgroundImage})`}}>
                     <Container>
                         <Row>
                             <Col md="4">
@@ -60,19 +61,21 @@ class Footer extends Component {
                                     <h5>Recent Post</h5>
                                     <div className="post-box d-flex">
                                         <div className="post-img">
-                                            <img src={process.env.PUBLIC_URL + "/assets/images/blog-2.jpg"} alt="" />
+                                            <img src={process.env.PUBLIC_URL + "/assets/images/blog-2.jpg"} alt=""/>
                                         </div>
                                         <div className="post-content">
-                                            <Link to={process.env.PUBLIC_URL +"/blog-details"}>Lorem ipsum dolor sit amet consectet adipisicing elit com...</Link>
+                                            <Link to={process.env.PUBLIC_URL + "/blog-details"}>Lorem ipsum dolor sit
+                                                amet consectet adipisicing elit com...</Link>
                                             <span>Mar 30, 2020</span>
                                         </div>
                                     </div>
                                     <div className="post-box d-flex">
                                         <div className="post-img">
-                                            <img src={process.env.PUBLIC_URL + "/assets/images/blog-3.jpg"} alt="" />
+                                            <img src={process.env.PUBLIC_URL + "/assets/images/blog-3.jpg"} alt=""/>
                                         </div>
                                         <div className="post-content">
-                                            <Link to={process.env.PUBLIC_URL +"/blog-details"}>Lorem ipsum dolor sit amet consectet adipisicing elit com...</Link>
+                                            <Link to={process.env.PUBLIC_URL + "/blog-details"}>Lorem ipsum dolor sit
+                                                amet consectet adipisicing elit com...</Link>
                                             <span>Mar 30, 2020</span>
                                         </div>
                                     </div>

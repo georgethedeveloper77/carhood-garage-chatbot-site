@@ -9,7 +9,8 @@ class NumberCounter extends Component {
         return (
             <Styles>
                 {/* Counter Area */}
-                <section className="counter-area" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/${Datas.backgroundImage})` }}>
+                <section className="counter-area"
+                         style={{backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/${Datas.backgroundImage})`}}>
                     <Container>
                         <Row>
                             <Col md="12">
@@ -23,7 +24,7 @@ class NumberCounter extends Component {
                                         <i className="las la-university"></i>
                                     </div>
                                     <div className="counter-number">
-                                        <h4><CountUp end={1170} duration={5} delay={1.5} />+</h4>
+                                        <h4><CountUp end={1170} duration={5} delay={1.5}/>+</h4>
                                         <p>University Courses</p>
                                     </div>
                                 </div>
@@ -45,7 +46,7 @@ class NumberCounter extends Component {
                                         <i className="las la-award"></i>
                                     </div>
                                     <div className="counter-number">
-                                        <h4><CountUp end={590} duration={5} delay={1.5} />+</h4>
+                                        <h4><CountUp end={590} duration={5} delay={1.5}/>+</h4>
                                         <p>Awards Wins</p>
                                     </div>
                                 </div>
@@ -56,7 +57,7 @@ class NumberCounter extends Component {
                                         <i className="las la-book-reader"></i>
                                     </div>
                                     <div className="counter-number">
-                                        <h4><CountUp end={3790} duration={5} delay={1.5} />+</h4>
+                                        <h4><CountUp end={3790} duration={5} delay={1.5}/>+</h4>
                                         <p>Library Books</p>
                                     </div>
                                 </div>

@@ -18,28 +18,28 @@ class About extends Component {
                 <div className="main-wrapper about-page">
 
                     {/* Header 2 */}
-                    <HeaderTwo />
+                    <HeaderTwo/>
 
                     {/* Breadcroumb */}
-                    <BreadcrumbBox title="About Us" />
+                    <BreadcrumbBox title="About Us"/>
 
                     {/* About Area */}
-                    <AboutUs />
+                    <AboutUs/>
 
                     {/* Icon Box Area */}
-                    <IconBox />
+                    <IconBox/>
 
                     {/* Tab Section */}
-                    <TabBox />
+                    <TabBox/>
 
                     {/* Testimonial Slider */}
-                    <TestimonialSlider />
+                    <TestimonialSlider/>
 
                     {/* Faq & Event Area */}
-                    <FaqEvent />
+                    <FaqEvent/>
 
                     {/* Footer 2 */}
-                    <FooterTwo />
+                    <FooterTwo/>
 
                 </div>
             </Styles>

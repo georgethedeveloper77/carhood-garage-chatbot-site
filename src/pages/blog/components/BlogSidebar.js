@@ -12,16 +12,16 @@ class BlogSidebar extends Component {
             <div className="course-sidebar">
                 <Row>
                     <Col md="12">
-                        <CourseSearch />
+                        <CourseSearch/>
                     </Col>
                     <Col md="12">
-                        <CourseCategory />
+                        <CourseCategory/>
                     </Col>
                     <Col md="12">
-                        <RecentBlog />
+                        <RecentBlog/>
                     </Col>
                     <Col md="12">
-                        <CourseTag />
+                        <CourseTag/>
                     </Col>
                 </Row>
             </div>

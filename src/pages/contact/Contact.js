@@ -74,10 +74,10 @@ function Contact() {
             <div className="main-wrapper contact-page">
 
                 {/* Header 2 */}
-                <HeaderTwo />
+                <HeaderTwo/>
 
                 {/* Breadcroumb */}
-                <BreadcrumbBox title="Contact Us" />
+                <BreadcrumbBox title="Contact Us"/>
 
                 {/* Contact Area */}
                 <section className="contact-area">
@@ -175,11 +175,11 @@ function Contact() {
                     </Container>
 
                     {/* Google Map */}
-                    <GoogleMap />
+                    <GoogleMap/>
                 </section>
 
                 {/* Footer 2 */}
-                <FooterTwo />
+                <FooterTwo/>
 
             </div>
         </Styles>

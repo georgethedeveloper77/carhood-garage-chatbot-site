@@ -61,6 +61,7 @@ export const Styles = styled.div`
                     transform : translateX(-50%) translateY(-50%);
                     box-sizing: content-box;
                     display   : block;
+                   
                     width     : 32px;
                     height    : 44px;
                     border-radius : 50%;
@@ -68,7 +69,7 @@ export const Styles = styled.div`
                     i {
                         position   : relative;
                         font-size  : 40px;
-                        color      : ${colors.bg1};
+                         color : ${colors.red};
                         z-index    : 11;
                         padding-top: 2px;
                         margin-left: -2px;
@@ -211,7 +212,7 @@ export const Styles = styled.div`
             a.readmore-btn {
                 font-size : 14px;
                 color     : #fff;
-                background: ${colors.gr_bg};
+                background: ${colors.red};
                 display   : inline-block;
                 width     : 145px;
                 height    : 40px;

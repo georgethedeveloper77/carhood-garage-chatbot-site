@@ -16,7 +16,10 @@ class ImageGallery extends Component {
                                 Datas.map((data, i) => (
                                     <Col md="3" sm="6" className="padding-fix" key={i}>
                                         <div className="gallery-box">
-                                            <ModalImage small={process.env.PUBLIC_URL + `/assets/images/${data.galleryImage}`} large={process.env.PUBLIC_URL + `/assets/images/${data.galleryImage}`} alt="" />
+                                            <ModalImage
+                                                small={process.env.PUBLIC_URL + `/assets/images/${data.galleryImage}`}
+                                                large={process.env.PUBLIC_URL + `/assets/images/${data.galleryImage}`}
+                                                alt=""/>
                                         </div>
                                     </Col>
                                 ))

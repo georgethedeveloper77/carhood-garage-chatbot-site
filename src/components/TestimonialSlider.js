@@ -39,7 +39,8 @@ class TestimonialSlider extends Component {
         return (
             <Styles>
                 {/* Testimonial Slider */}
-                <section className="testimonial-area" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/${Datas.backgroundImage})` }}>
+                <section className="testimonial-area"
+                         style={{backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/${Datas.backgroundImage})`}}>
                     <Container>
                         <Row>
                             <Col md="12">
@@ -57,7 +58,9 @@ class TestimonialSlider extends Component {
                                                     <p>{data.testimonialDesc}</p>
                                                 </div>
                                                 <div className="writer">
-                                                    <img src={process.env.PUBLIC_URL + `/assets/images/${data.authorImg}`} className="slider-image" alt={data.authorImg} />
+                                                    <img
+                                                        src={process.env.PUBLIC_URL + `/assets/images/${data.authorImg}`}
+                                                        className="slider-image" alt={data.authorImg}/>
                                                     <h6>{data.authorName}</h6>
                                                     <p>{data.authorTitle}</p>
                                                 </div>

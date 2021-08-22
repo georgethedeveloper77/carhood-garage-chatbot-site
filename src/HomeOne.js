@@ -48,24 +48,24 @@ export default class HomeOne extends Component {
 
 
                 {/* Team Slider */}
-                < TeamSlider />
+                < TeamSlider/>
 
                 {/* Help Area */}
-                < HelpArea />
+                < HelpArea/>
 
                 {/* Blog Area */}
-                < HomeBlog />
+                < HomeBlog/>
 
                 {/* Campus Tour */}
-                < CampusTour />
+                < CampusTour/>
 
                 {/* Newsletter Form */}
-                < NewsletterForm />
+                < NewsletterForm/>
 
                 {/* Footer */}
-                < Footer />
+                < Footer/>
 
-            </div >
+            </div>
         )
     }
 }

@@ -1,14 +1,14 @@
 [
-    {
-        "galleryImage": "imagegallery-01.jpg"
-    },
-    {
-        "galleryImage": "imagegallery-02.jpg"
-    },
-    {
-        "galleryImage": "imagegallery-03.jpg"
-    },
-    {
-        "galleryImage": "imagegallery-04.jpg"
-    }
+  {
+    "galleryImage": "imagegallery-01.png"
+  },
+  {
+    "galleryImage": "imagegallery-02.png"
+  },
+  {
+    "galleryImage": "imagegallery-03.png"
+  },
+  {
+    "galleryImage": "imagegallery-04.png"
+  }
 ]

@@ -73,29 +73,30 @@ function FreeCourse() {
                             </div>
                             <div className="countdown-timer">
                                 <Timer initialTime={10440 * 2970 * 980} direction="backward">
-                                    <p><span><Timer.Days /></span>Days</p>
-                                    <p><span><Timer.Hours /></span>Hours</p>
-                                    <p><span><Timer.Minutes /></span>Minutes</p>
-                                    <p><span><Timer.Seconds /></span>Seconds</p>
+                                    <p><span><Timer.Days/></span>Days</p>
+                                    <p><span><Timer.Hours/></span>Hours</p>
+                                    <p><span><Timer.Minutes/></span>Minutes</p>
+                                    <p><span><Timer.Seconds/></span>Seconds</p>
                                 </Timer>
                             </div>
                         </Col>
                         <Col md="5">
-                            <div className="register-form text-center" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/${Datas.formBackground})` }}>
+                            <div className="register-form text-center"
+                                 style={{backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/${Datas.formBackground})`}}>
                                 <div className="form-box">
                                     <h4 className="title">Sign Up Now</h4>
                                     <p className="desc">Get Free Courses</p>
                                     <form id="form3" className="form">
                                         <p className="form-control">
-                                            <input type="text" placeholder="Enter your Name" id="name3" />
+                                            <input type="text" placeholder="Enter your Name" id="name3"/>
                                             <span className="input-msg3"></span>
                                         </p>
                                         <p className="form-control">
-                                            <input type="email" placeholder="Enter your Email" id="email3" />
+                                            <input type="email" placeholder="Enter your Email" id="email3"/>
                                             <span className="input-msg3"></span>
                                         </p>
                                         <p className="form-control">
-                                            <input type="text" placeholder="Enter Phone NUmber" id="phone3" />
+                                            <input type="text" placeholder="Enter Phone NUmber" id="phone3"/>
                                             <span className="input-msg3"></span>
                                         </p>
                                         <button>Send Request</button>

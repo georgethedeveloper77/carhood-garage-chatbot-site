@@ -18,10 +18,10 @@ class Events extends Component {
                 <div className="main-wrapper event-page">
 
                     {/* Header 2 */}
-                    <HeaderTwo />
+                    <HeaderTwo/>
 
                     {/* Breadcroumb */}
-                    <BreadcrumbBox title="Events" />
+                    <BreadcrumbBox title="Events"/>
 
                     {/* Events Area */}
                     <section className="event-page-area">
@@ -34,7 +34,9 @@ class Events extends Component {
                                                 <Row>
                                                     <Col xl="3" lg="4" md="0">
                                                         <div className="event-img">
-                                                            <Link to={process.env.PUBLIC_URL + data.eventLink}><img src={process.env.PUBLIC_URL + `/assets/images/${data.eventImg}`} alt="" className="img-fluid" /></Link>
+                                                            <Link to={process.env.PUBLIC_URL + data.eventLink}><img
+                                                                src={process.env.PUBLIC_URL + `/assets/images/${data.eventImg}`}
+                                                                alt="" className="img-fluid"/></Link>
                                                         </div>
                                                     </Col>
                                                     <Col xl="9" lg="8" md="12">
@@ -43,12 +45,18 @@ class Events extends Component {
                                                                 <Row>
                                                                     <Col md="9">
                                                                         <div className="event-title">
-                                                                            <h6><Link to={process.env.PUBLIC_URL + data.eventLink}>{data.eventTitle}</Link></h6>
+                                                                            <h6><Link
+                                                                                to={process.env.PUBLIC_URL + data.eventLink}>{data.eventTitle}</Link>
+                                                                            </h6>
                                                                         </div>
                                                                         <div className="event-time-location">
                                                                             <ul className="list-unstyled list-inline">
-                                                                                <li className="list-inline-item"><i className="las la-clock"></i> {data.eventTime}</li>
-                                                                                <li className="list-inline-item"><i className="las la-map-marker"></i> {data.eventLocation}</li>
+                                                                                <li className="list-inline-item"><i
+                                                                                    className="las la-clock"></i> {data.eventTime}
+                                                                                </li>
+                                                                                <li className="list-inline-item"><i
+                                                                                    className="las la-map-marker"></i> {data.eventLocation}
+                                                                                </li>
                                                                             </ul>
                                                                         </div>
                                                                         <div className="event-desc">
@@ -60,7 +68,9 @@ class Events extends Component {
                                                                             <p>{data.eventDate}</p>
                                                                         </div>
                                                                         <div className="join-btn">
-                                                                            <Link to={process.env.PUBLIC_URL + data.eventLink}>Join Now</Link>
+                                                                            <Link
+                                                                                to={process.env.PUBLIC_URL + data.eventLink}>Join
+                                                                                Now</Link>
                                                                         </div>
                                                                     </Col>
                                                                 </Row>
@@ -73,12 +83,12 @@ class Events extends Component {
                                     }
 
                                     <Col md="12" className="text-center">
-                                        <Pagination />
+                                        <Pagination/>
                                     </Col>
                                 </Col>
 
                                 <Col lg="3" md="0">
-                                    <CourseSidebar />
+                                    <CourseSidebar/>
                                 </Col>
 
                             </Row>
@@ -87,7 +97,7 @@ class Events extends Component {
 
 
                     {/* Footer 2 */}
-                    <FooterTwo />
+                    <FooterTwo/>
 
                 </div>
             </Styles>

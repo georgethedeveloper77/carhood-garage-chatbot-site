@@ -52,14 +52,21 @@ class TeamSlider extends Component {
                                     {
                                         Datas.dataList.map((data, i) => (
                                             <div className="team-item" key={i}>
-                                                <img src={process.env.PUBLIC_URL + `/assets/images/${data.personImage}`} alt="" className="img-fluid" />
+                                                <img src={process.env.PUBLIC_URL + `/assets/images/${data.personImage}`}
+                                                     alt="" className="img-fluid"/>
                                                 <div className="img-content text-center">
                                                     <h5>{data.personName}</h5>
                                                     <p>{data.personTitle}</p>
                                                     <ul className="list-unstyled list-inline">
-                                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + data.socialLinks.facebook}><i className="fab fa-facebook-f"></i></a></li>
-                                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + data.socialLinks.twitter}><i className="fab fa-twitter"></i></a></li>
-                                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + data.socialLinks.youtube}><i className="fab fa-youtube"></i></a></li>
+                                                        <li className="list-inline-item"><a
+                                                            href={process.env.PUBLIC_URL + data.socialLinks.facebook}><i
+                                                            className="fab fa-facebook-f"></i></a></li>
+                                                        <li className="list-inline-item"><a
+                                                            href={process.env.PUBLIC_URL + data.socialLinks.twitter}><i
+                                                            className="fab fa-twitter"></i></a></li>
+                                                        <li className="list-inline-item"><a
+                                                            href={process.env.PUBLIC_URL + data.socialLinks.youtube}><i
+                                                            className="fab fa-youtube"></i></a></li>
                                                     </ul>
                                                 </div>
                                             </div>

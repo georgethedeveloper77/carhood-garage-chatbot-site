@@ -11,16 +11,16 @@ class ShopSidebar extends Component {
             <div className="course-sidebar">
                 <Row>
                     <Col md="12">
-                        <CourseSearch />
+                        <CourseSearch/>
                     </Col>
                     <Col md="12">
-                        <PriceFilter />
+                        <PriceFilter/>
                     </Col>
                     <Col md="12">
-                        <PopularCourse />
+                        <PopularCourse/>
                     </Col>
                     <Col md="12">
-                        <CourseTag />
+                        <CourseTag/>
                     </Col>
                 </Row>
             </div>

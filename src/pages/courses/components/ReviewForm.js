@@ -62,15 +62,15 @@ function ReviewForm() {
                 <Row>
                     <Col md="12">
                         <div className="star-rating">
-                            <input type="radio" name="rate" id="rate-5" />
+                            <input type="radio" name="rate" id="rate-5"/>
                             <label htmlFor="rate-5" className="las la-star"></label>
-                            <input type="radio" name="rate" id="rate-4" />
+                            <input type="radio" name="rate" id="rate-4"/>
                             <label htmlFor="rate-4" className="las la-star"></label>
-                            <input type="radio" name="rate" id="rate-3" />
+                            <input type="radio" name="rate" id="rate-3"/>
                             <label htmlFor="rate-3" className="las la-star"></label>
-                            <input type="radio" name="rate" id="rate-2" />
+                            <input type="radio" name="rate" id="rate-2"/>
                             <label htmlFor="rate-2" className="las la-star"></label>
-                            <input type="radio" name="rate" id="rate-1" />
+                            <input type="radio" name="rate" id="rate-1"/>
                             <label htmlFor="rate-1" className="las la-star"></label>
                         </div>
                     </Col>
@@ -82,13 +82,13 @@ function ReviewForm() {
                     </Col>
                     <Col md="6">
                         <p className="form-control">
-                            <input type="name" placeholder="Enter your name" id="name6" />
+                            <input type="name" placeholder="Enter your name" id="name6"/>
                             <span className="input-msg6"></span>
                         </p>
                     </Col>
                     <Col md="6">
                         <p className="form-control">
-                            <input type="email" placeholder="Enter your email" id="email6" />
+                            <input type="email" placeholder="Enter your email" id="email6"/>
                             <span className="input-msg6"></span>
                         </p>
                     </Col>

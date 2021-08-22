@@ -38,7 +38,7 @@ function Search() {
                 <div className="search-overlay custom-overlay" id="search-overlay"></div>
                 <div className="search-inner">
                     <form method="get" className="search-form">
-                        <input type="search" name="search" placeholder="Type and hit enter...." />
+                        <input type="search" name="search" placeholder="Type and hit enter...."/>
                         <i className="las la-times close-btn" id="search-close"></i>
                     </form>
                 </div>
