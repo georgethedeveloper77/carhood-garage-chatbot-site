@@ -1,22 +1,22 @@
 import React, {Component} from 'react';
 
 class KommunicateChat extends Component {
-    /*constructor(props) {
+    constructor(props) {
         super(props);
-    }*/
+    }
 
-    componentWillMount() {
+    componentDidMount() {
         (function (d, m) {
-            var kommunicateSettings = {
-                "appId": "3074e04cffc3eead1df5c16c3c85fae8e",
+            const kommunicateSettings = {
+                "appId": "2aa015ba04528820a863e1d03e56ad448",
                 "popupWidget": true,
                 "automaticChatOpenOnNavigation": true
             };
-            var s = document.createElement("script");
+            const s = document.createElement("script");
             s.type = "text/javascript";
             s.async = true;
             s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
-            var h = document.getElementsByTagName("head")[0];
+            const h = document.getElementsByTagName("head")[0];
             h.appendChild(s);
             window.kommunicate = m;
             m._globals = kommunicateSettings;
