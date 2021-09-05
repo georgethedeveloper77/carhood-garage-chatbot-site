@@ -11,9 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6293066-9b69-43f4-bb14-27ee55f69397" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ras.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ras.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chatbot/Chatbot.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chatbot/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chatbot/_config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chatbot/chatbot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chatbot/chatbot.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chatbot/Chat.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +58,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/chatbot" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -71,6 +82,9 @@
       <workItem from="1629434396257" duration="975000" />
       <workItem from="1629615661021" duration="4833000" />
       <workItem from="1629655328379" duration="884000" />
+      <workItem from="1629818198362" duration="123000" />
+      <workItem from="1630842837479" duration="2650000" />
+      <workItem from="1630873884552" duration="2577000" />
     </task>
     <task id="LOCAL-00001" summary="PWA">
       <created>1629134181559</created>
@@ -135,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629621628420</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="refactoring - appID">
+      <created>1629818277766</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1629818277766</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +186,8 @@
     <MESSAGE value="refactoring v1.0.0" />
     <MESSAGE value="refactoring v1" />
     <MESSAGE value="KommunicateChat" />
-    <option name="LAST_COMMIT_MESSAGE" value="KommunicateChat" />
+    <MESSAGE value="refactoring - appID" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring - appID" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -191,10 +213,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="995" height="274" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1629136435990" />
-    <state x="115" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1629618038760">
+    <state x="115" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1629818295943">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="115" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1629618038760" />
+    <state x="115" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1629818295943" />
     <state x="831" y="510" width="841" height="570" key="find.popup" timestamp="1629619997301">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

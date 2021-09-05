@@ -26,7 +26,7 @@ import Product from './pages/shop/Products';
 import ProductDetails from './pages/shop/ProductDetails';
 import Cart from './pages/shop/Cart';
 import MessengerCustomerChat from "react-messenger-customer-chat";
-import KommunicateChat from "./Chat";
+import KommunicateChat from "./chatbot/Chat";
 
 
 function App() {
